@@ -1,0 +1,36 @@
+ # Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# Python (se o backend usar Python)
+backend/__pycache__/
+backend/*.pyc
+backend/venv/
+backend/.env
+
+# gRPC generated files
+Backend/**/_pb2.py
+Backend/**/_pb2_grpc.py
+Backend/**/_pb2.pyi
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+build/
+dist/
+
+# Temporary files
+*.tmp
+*.bak
+
