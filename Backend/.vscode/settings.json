@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./FinTrust/services/auth",
+        "./FinTrust/services/accounts",
+        "./FinTrust/services/transfers",
+    ]
+}
