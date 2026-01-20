@@ -1,8 +1,34 @@
+# ==========================================
+# SYSTEM
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ==========================================
+# FRONTEND
+# ==========================================
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.env
+Frontend/.env.*
+Frontend/.cache/
+
+# ==========================================
+# BACKEND - PYTHON
+# ==========================================
+
 # Python cache
 Backend/**/__pycache__/
 Backend/**/*.pyc
+Backend/**/*.pyo
 
-# Databases locais
+# Virtual environments
+Backend/venv/
+Backend/env/
+
+# SQLite databases
 Backend/**/*.db
 
 # Logs
@@ -15,7 +41,5 @@ Backend/**/*_pb2.py
 Backend/**/*_pb2_grpc.py
 Backend/**/*_pb2.pyi
 
-# Frontend
-Frontend/node_modules/
-Frontend/dist/
-Frontend/.env
+# IDE settings
+Backend/.vscode/
